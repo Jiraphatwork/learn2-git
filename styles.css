@@ -1,37 +1,58 @@
+/* Apply universal box-sizing and reset margins and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Navigation bar styles */
 nav {
     display: flex;
     justify-content: space-between;
     padding: 25px;
     background-color: #333;
-    
-    
+    font-family: "Bebas Neue", sans-serif;
 }
 
+/* Logo styles */
 .logo a {
-text-decoration: none;
-color:white;
-font-weight: bold;
-font-size: 25px
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
 }
 
+/* Navigation menu styles */
 .nav-menu {
     display: flex;
     list-style: none;
 }
 
+/* Navigation menu item styles */
 .nav-menu li {
-    margin-left: 15px;
-    
+    margin-left: 50px;
 }
 
+/* Navigation menu link styles */
 .nav-menu a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    transition: color 0.3s;
 }
+
+/* Add a hover effect for navigation links */
+.nav-menu a:hover {
+    color: #f0a500;
+}
+
+/* Image view styles */
+.view img {
+    width: 100%;
+    height: auto;
+}
+
+/* Add some basic styling for the banner */
+
+
